@@ -7,8 +7,6 @@ description: VS Code extension that provides sonarlint features
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 attributes:
   extension: "vscode:extension/SonarSource.sonarlint-vscode"
-  container-image: "garagatyi/remotetheia:java"
-  containerImage: "garagatyi/remotetheia:java"
 firstPublicationDate: "2019-02-05"
 category: Linter
 publisher: SonarSource

@@ -9,5 +9,3 @@ url: https://github.com/tolusha/ms-code.typescript/releases/download/1.0.0/che-t
 publisher: Red Hat, Inc.
 repository: https://github.com/Microsoft/vscode
 category: Programming Languages
-attributes:
-  containerImage: "eclipse/che-theia-endpoint-runtime"

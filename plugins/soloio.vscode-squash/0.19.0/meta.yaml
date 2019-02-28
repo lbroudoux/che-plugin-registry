@@ -11,4 +11,4 @@ repository: https://github.com/solo-io/squash-vscode
 category: Debugger
 firstPublicationDate: "2019-02-27"
 attributes:
-  containerImage: "eclipse/che-theia-endpoint-runtime:nightly"
+  containerImage: "quay.io/mcouliba/che-theia-plugin-squash:latest"

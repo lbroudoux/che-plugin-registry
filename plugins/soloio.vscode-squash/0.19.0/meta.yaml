@@ -6,7 +6,7 @@ title: Debug your microservices application
 description: Squash, a tool for debugging distributed applications, is designed to bring the strength of modern debuggers and the convenience of their IDEs to microservices developers
 url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ilevine/vsextensions/squash/0.1.9/vspackage
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-publisher: Idit Levine
+publisher: Red Hat, Inc.
 repository: https://github.com/solo-io/squash-vscode
 category: Debugger
 firstPublicationDate: "2019-02-27"

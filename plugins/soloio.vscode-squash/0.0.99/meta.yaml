@@ -1,13 +1,13 @@
 id: soloio.vscode-squash
-version: 0.19.0
+version: 0.0.99
 type: VS Code extension
 name: Squash
 title: Debug your microservices application
 description: Squash, a tool for debugging distributed applications, is designed to bring the strength of modern debuggers and the convenience of their IDEs to microservices developers
-url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ilevine/vsextensions/squash/0.1.9/vspackage
+url: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/mitch-extension/vsextensions/squash/0.0.99/vspackage
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 publisher: Red Hat, Inc.
-repository: https://github.com/solo-io/squash-vscode
+repository: https://github.com/solo-io/squash/tree/master/editor/vscode
 category: Debugger
 firstPublicationDate: "2019-02-27"
 attributes:

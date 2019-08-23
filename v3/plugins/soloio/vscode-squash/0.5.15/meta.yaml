@@ -1,6 +1,6 @@
 apiVersion: v2
-publisher: Red Hat, Inc.
-name: Squash
+publisher: soloio
+name: vscode-squash
 version: 0.5.15
 type: VS Code extension
 displayName: Solo.io Squash

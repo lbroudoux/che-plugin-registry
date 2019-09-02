@@ -12,7 +12,7 @@ category: Debugger
 firstPublicationDate: "2019-02-27"
 spec:
   containers:
-    - image: "quay.io/mcouliba/che-theia-plugin-squash:latest"
+    - image: "quay.io/mcouliba/che-remote-plugin-soloio-squash-0.5.15:7.0.0"
       name: "vscode-squash"
       memoryLimit: "512Mi"
   extensions:

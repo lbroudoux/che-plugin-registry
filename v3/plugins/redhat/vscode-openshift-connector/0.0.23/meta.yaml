@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: mcouliba
 name: vscode-openshift-connector
-version: latest
+version: 0.0.23
 type: VS Code extension
 displayName: OpenShift Connector
 title: OpenShift Connector

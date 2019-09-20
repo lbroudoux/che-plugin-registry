@@ -1,5 +1,5 @@
 apiVersion: v2
-publisher: mcouliba
+publisher: redhat
 name: vscode-openshift-connector
 version: 0.0.23
 type: VS Code extension

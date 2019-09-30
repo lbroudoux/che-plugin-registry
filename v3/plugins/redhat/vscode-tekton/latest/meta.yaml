@@ -6,7 +6,7 @@ type: VS Code extension
 displayName: Tekton
 title: Quarkus Tools
 description: This Visual Studio Code extension provides support for Quarkus development via a Quarkus language server and a Quarkus jdt.ls extension.
-icon: https://github.com/redhat-developer/vscode-tekton/blob/master/images/tekton.png
+icon: https://landscape.cncf.io/logos/tekton-pipelines.svg
 repository: https://github.com/redhat-developer/vscode-tekton
 category: Language
 firstPublicationDate: "2019-09-30"

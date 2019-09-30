@@ -1,0 +1,19 @@
+apiVersion: v2
+publisher: redhat
+name: vscode-tekton
+version: latest
+type: VS Code extension
+displayName: Tekton
+title: Quarkus Tools
+description: This Visual Studio Code extension provides support for Quarkus development via a Quarkus language server and a Quarkus jdt.ls extension.
+icon: https://github.com/redhat-developer/vscode-tekton/blob/master/images/tekton.png
+repository: https://github.com/redhat-developer/vscode-tekton
+category: Language
+firstPublicationDate: "2019-09-30"
+spec:
+  containers:
+    - image: "docker.io/eclipse/che-theia-endpoint-runtime:7.1.0"
+      name: vscode-tekton
+      memoryLimit: "512Mi"
+  extensions:
+    - https://github.com/mcouliba/vscode-tekton/releases/download/0.1.0/vscode-tekton-pipelines-0.1.0.vsix

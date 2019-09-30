@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2019-09-30"
 spec:
   containers:
-    - image: "docker.io/eclipse/che-theia-endpoint-runtime:7.1.0"
+    - image: "quay.io/mcouliba/che-remote-plugin-openshift-pipeline-0.1.0:7.1.0"
       name: vscode-tekton
       memoryLimit: "512Mi"
   extensions:

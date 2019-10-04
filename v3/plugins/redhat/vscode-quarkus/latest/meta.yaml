@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: redhat
 name: vscode-quarkus
-version: 1.0.1
+version: latest
 type: VS Code extension
 displayName: Quarkus
 title: Quarkus Tools

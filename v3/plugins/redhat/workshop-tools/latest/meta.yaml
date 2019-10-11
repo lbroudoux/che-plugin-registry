@@ -1,0 +1,24 @@
+apiVersion: v2
+publisher: redhat
+name: workshop-tools
+version: latest
+type: VS Code extension
+displayName: Workshop Tools
+title: Workshop Tools
+description: Develop, deploy and debug Cloud Native applications
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/redhat-developer/vscode-openshift-tools
+category: Other
+firstPublicationDate: "2019-09-19"
+spec:
+  containers:
+    - image: "docker pull quay.io/mcouliba/remote-plugin-workshop-tooling"
+      name: workshop-tools
+      memoryLimit: "4G"
+  extensions:
+    - https://github.com/mcouliba/vscode-tekton/releases/download/0.1.0/vscode-tekton-pipelines-0.1.0.vsix
+    - https://github.com/microsoft/vscode-java-debug/releases/download/0.22.0/vscode-java-debug-0.22.0.vsix
+    - https://github.com/redhat-developer/vscode-java/releases/download/v0.47.0/redhat.java-0.47.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/redhat/vsextensions/vscode-quarkus/1.0.1/vspackage
+    - https://github.com/redhat-developer/vscode-openshift-tools/releases/download/v0.1.0/redhat.vscode-openshift-connector-0.1.0.vsix
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/ilevine/vsextensions/squash/0.5.12/vspackage

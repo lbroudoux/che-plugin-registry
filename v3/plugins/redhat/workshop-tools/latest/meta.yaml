@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: "2019-09-19"
 spec:
   containers:
-    - image: "docker pull quay.io/mcouliba/remote-plugin-workshop-tooling"
+    - image: "quay.io/mcouliba/remote-plugin-workshop-tooling:latest"
       name: workshop-tools
       memoryLimit: "4G"
   extensions:

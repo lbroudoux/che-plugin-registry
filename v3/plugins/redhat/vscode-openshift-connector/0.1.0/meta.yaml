@@ -7,9 +7,9 @@ displayName: OpenShift Connector
 title: OpenShift Connector
 description: Interacting with Red Hat OpenShift clusters and providing a streamlined developer experience using Eclipse Che
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-repository: https://github.com/redhat-developer/vscode-openshift-tools
+repository: https://github.com/eclipse/che-plugin-registry/tree/master/v3/plugins/redhat/vscode-openshift-connector
 category: Other
-firstPublicationDate: "2019-09-19"
+firstPublicationDate: "2019-10-08"
 spec:
   containers:
     - image: "quay.io/mcouliba/che-remote-plugin-openshift-connector-0.1.0:7.2.0"

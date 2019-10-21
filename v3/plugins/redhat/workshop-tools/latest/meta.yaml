@@ -11,15 +11,8 @@ repository: https://github.com/redhat-developer/vscode-openshift-tools
 category: Other
 firstPublicationDate: "2019-09-19"
 spec:
-  endpoints:
-    -  name: localhost-8080
-       public: true
-       targetPort: 8080
-       attributes:
-         protocol: http
-         discoverable: false
   containers:
-    - image: "quay.io/mcouliba/remote-plugin-workshop-tooling:latest"
+    - image: quay.io/mcouliba/remote-plugin-workshop-tooling:latest
       name: workshop-tools
       memoryLimit: "4G"
       env:

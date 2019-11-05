@@ -1,0 +1,25 @@
+apiVersion: v2
+publisher: ms-kubernetes-tools
+name: vscode-kubernetes-tools
+version: 1.0.4
+type: VS Code extension
+displayName: Kubernetes
+title: Kubernetes Tools
+description: Develop, deploy and debug Kubernetes applications
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/Azure/vscode-kubernetes-tools
+category: Other
+firstPublicationDate: "2019-10-16"
+spec:
+  containers:
+<<<<<<< HEAD:v3/plugins/ms-kubernetes-tools/vscode-kubernetes-tools/latest/meta.yaml
+  - image: "docker.io/eclipse/che-remote-plugin-kubernetes-tooling-1.0.0:7.3.0"
+    name: vscode-kubernetes-tools
+    memoryLimit: "1G"
+=======
+    - image: "docker.io/eclipse/che-remote-plugin-kubernetes-tooling-1.0.4:7.3.1"
+      name: "vscode-kubernetes-tools"
+      memoryLimit: "1G"
+>>>>>>> f50fabd3f629316900cd37eb4ac9f103a92320f4:v3/plugins/ms-kubernetes-tools/vscode-kubernetes-tools/1.0.4/meta.yaml
+  extensions:
+    - https://github.com/Azure/vscode-kubernetes-tools/releases/download/1.0.4/vscode-kubernetes-tools-1.0.4.vsix

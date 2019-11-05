@@ -12,14 +12,8 @@ category: Language
 firstPublicationDate: "2019-10-28"
 spec:
   containers:
-<<<<<<< HEAD:v3/plugins/redhat/vscode-xml/latest/meta.yaml
-  - image: "docker.io/eclipse/che-remote-plugin-runner-java11:7.3.0"
-    name: vscode-xml
-    memoryLimit: "768Mi"
-=======
     - image: "docker.io/eclipse/che-remote-plugin-runner-java11:7.3.1"
       name: vscode-xml
       memoryLimit: "768Mi"
->>>>>>> f50fabd3f629316900cd37eb4ac9f103a92320f4:v3/plugins/redhat/vscode-xml/0.9.1/meta.yaml
   extensions:
     - https://github.com/redhat-developer/vscode-xml/releases/download/0.9.1/redhat.vscode-xml-0.9.1.vsix

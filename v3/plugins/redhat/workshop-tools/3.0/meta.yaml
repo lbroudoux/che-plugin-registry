@@ -1,7 +1,7 @@
 apiVersion: v2
 publisher: redhat
 name: workshop-tools
-version: 1.0
+version: 3.0
 type: VS Code extension
 displayName: Workshop Tools
 title: Workshop Tools
@@ -12,7 +12,7 @@ category: Other
 firstPublicationDate: "2019-09-19"
 spec:
   containers:
-    - image: quay.io/mcouliba/remote-plugin-workshop-tooling:latest
+    - image: quay.io/mcouliba/remote-plugin-workshop-tooling:3.0
       name: workshop-tools
       memoryLimit: "4G"
       env:

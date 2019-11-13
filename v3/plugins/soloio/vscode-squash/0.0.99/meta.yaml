@@ -1,4 +1,6 @@
-id: soloio.vscode-squash
+apiVersion: v2
+publisher: soloio
+name: vscode-squash
 version: 0.0.99
 type: VS Code extension
 name: Squash

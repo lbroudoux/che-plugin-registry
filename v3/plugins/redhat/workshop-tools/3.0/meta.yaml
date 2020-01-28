@@ -17,7 +17,7 @@ spec:
       memoryLimit: "4G"
       env:
         - name: MAVEN_OPTS
-          value: -Xmx2048m
+          value: "-Xmx2048m -Duser.home=/home/theia"
   extensions:
     - https://github.com/microsoft/vscode-java-debug/releases/download/0.20.0/vscode-java-debug-0.20.0.vsix
     - https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.50.0-1825.vsix
